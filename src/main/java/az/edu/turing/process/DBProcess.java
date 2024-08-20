@@ -89,7 +89,6 @@ public class DBProcess {
             }
         }
     }
-
     public static void deleteStudent(Integer studentId) {
         String query = "DELETE FROM student WHERE studentId=?";
         try {
