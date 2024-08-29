@@ -101,7 +101,6 @@ public class DBProcess {
             throw new RuntimeException(e);
         }
     }
-
     public static void findStudentById() {
         Scanner sc = new Scanner(System.in);
         System.out.println("id daxil edin");
