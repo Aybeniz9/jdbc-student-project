@@ -118,7 +118,6 @@ public class DBProcess {
                 String studentNumber = resultSet.getString(5);
                 System.out.println(id + " " + name + " " + surname + " " + birthDate + " " + studentNumber);
             }
-
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
