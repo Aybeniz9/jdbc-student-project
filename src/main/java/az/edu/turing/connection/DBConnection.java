@@ -14,7 +14,6 @@ public class DBConnection {
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
-
         try {
             connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "Aybeniz2021");
             System.out.println("Connected to database successfully");
