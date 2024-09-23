@@ -16,7 +16,7 @@ public class DBConnection {
         }
 
         try {
-            connection=DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "Aybeniz2021");
+            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "Aybeniz2021");
             System.out.println("Connected to database successfully");
         } catch (SQLException e) {
             throw new RuntimeException(e);
