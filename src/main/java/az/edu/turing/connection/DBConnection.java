@@ -22,7 +22,6 @@ public class DBConnection {
         }
         return connection;
     }
-
     public static void closeProject() {
         try {
             if (connection != null && !connection.isClosed()) {
